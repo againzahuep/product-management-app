@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_pending">
+
+    <fragment
+        android:id="@+id/navigation_pending"
+        android:name="com.againzahuep.productmanagement.presentation.ui.views.pendingreviews.PendingReviewFragment"
+        android:label="@string/pending_review_title"
+        tools:layout="@layout/fragment_pending_review" />
+
+    <fragment
+        android:id="@+id/navigation_reviewed"
+        android:name="com.againzahuep.productmanagement.presentation.ui.views.reviewed.ReviewedFragment"
+        android:label="@string/reviewed_title"
+        tools:layout="@layout/fragment_reviewed" />
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestión de Productos</string>
+
+    <!-- Navigation -->
+    <string name="pending_review_title">Productos por Revisar</string>
+    <string name="reviewed_title">Productos Revisados</string>
+    <string name="nav_pending">Por Revisar</string>
+    <string name="nav_reviewed">Revisados</string>
+
+    <!-- Product Items -->
+    <string name="approve">Aprobar</string>
+    <string name="reject">Rechazar</string>
+    <string name="delete_product">Eliminar producto</string>
+    <string name="close">Cerrar</string>
+    <string name="no_reviewed_products">No hay productos revisados</string>
+    <string name="status_approved">Aprobado</string>
+    <string name="status_rejected">Rechazado</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_label">Estado: %1$s</string>
+
+    <!-- Messages -->
+    <string name="loading_products">Cargando productos...</string>
+    <string name="error_loading_products">Error al cargar productos</string>
+    <string name="product_deleted">Producto eliminado</string>
+    <string name="product_approved">Producto aprobado</string>
+    <string name="product_rejected">Producto rechazado</string>
+    <string name="empty_products">No hay productos</string>
+</resources>

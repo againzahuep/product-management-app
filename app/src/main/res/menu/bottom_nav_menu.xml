@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_pending"
+        android:icon="@drawable/ic_rainy"
+        android:title="@string/nav_pending" />
+    <item
+        android:id="@+id/navigation_reviewed"
+        android:icon="@drawable/ic_sunny"
+        android:title="@string/nav_reviewed" />
+</menu>
