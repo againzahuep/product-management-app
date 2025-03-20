@@ -24,7 +24,7 @@ object AppModule {
     @Singleton
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://fakestoreapi.com/")
+            .baseUrl("https://67dc716ce00db03c40681aac.mockapi.io/v1/products")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

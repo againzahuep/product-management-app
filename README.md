@@ -1,5 +1,4 @@
 # Product Management App
-
 Esta aplicación móvil Android desarrollada en Kotlin funciona como una herramienta de gestión de aprobación de productos (To-Do), permitiendo revisar productos, aprobarlos o rechazarlos, y gestionar listas de productos pendientes y revisados.
 
 
@@ -83,6 +82,26 @@ app/
 1. Clone este repositorio:
    ```bash
    git clone https://github.com/username/product-management-app.git
+
+	Please add this address like API REST URL in src/AppModule.kt like baseUrl
+	https://67dc716ce00db03c40681aac.mockapi.io/v1/products 
+	
+	Like this line
+	@Provides
+    @Singleton
+    fun provideRetrofit(): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl("https://67dc716ce00db03c40681aac.mockapi.io/v1/products")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
+
+	Use Java 17 or Java 11+
+	Add JDK location to JAVA_HOME SYSTEM_PATH Variables
+	
+	Important
+	Use Gradle Version 8.12.1 or latest 
    ```
 
 2. Abra el proyecto en Android Studio.
